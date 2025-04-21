@@ -1,5 +1,4 @@
 FROM quay.io/eypzgod/izumi:latest
-
 # Install CA certificates to handle HTTPS requests
 RUN apt-get update && apt-get install -y ca-certificates
 
